@@ -40,4 +40,17 @@ p {
   left: 0;
   bottom: 0;
   width: 100%;
-  } 
+  }
+
+  // Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) { 
+    .row-1, .row-help {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 20px 0; 
+    }
+    .mgtop {
+        margin-top: 220px;
+    }
+ }
