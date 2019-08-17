@@ -52,11 +52,12 @@ p {
 
   // Extra small devices (portrait phones, less than 576px)
 @media (max-width: 575.98px) { 
-    .row-1, .row-help {
+    .row-1, .row-content {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        margin: 20px 0; 
+        margin: 20px 0;
+        width: 95%;
     }
     .mgtop {
         margin-top: 220px;
