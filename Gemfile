@@ -58,6 +58,10 @@ group :test do
   gem 'chromedriver-helper'
 end
 
+group :development do
+  gem 'postgresql'
+end
+
 group :production do
   gem 'pg'
 end
