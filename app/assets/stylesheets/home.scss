@@ -23,11 +23,19 @@ h1 {
 p {
     font-size: 1.5rem;
 }
-.row-1, .row-help {
+.row-1 {
     display: flex;
     flex-direction: row;
     justify-content: center;
     margin: 20px 0; 
+}
+.row-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    width: 70%;
+    margin: 10px auto;
 }
 .card {
     margin: 10px 20px;
@@ -44,13 +52,23 @@ p {
 
   // Extra small devices (portrait phones, less than 576px)
 @media (max-width: 575.98px) { 
-    .row-1, .row-help {
+    .row-1, .row-content {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        margin: 20px 0; 
+        margin: 20px 0;
+        width: 95%;
     }
     .mgtop {
         margin-top: 220px;
+    }
+    .small-h1 {
+        font-size: 20px;
+    }
+    .small-subtitle {
+        font-size: 14px;
+    }
+    .wtxt {
+        color : white;
     }
  }
