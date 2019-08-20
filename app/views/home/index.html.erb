@@ -45,7 +45,7 @@
                 <div class="card-header">Our VISION</div>
                 <div class="card-body">                        
                         <p class="card-text">Ukuaji signifie “croissance” en swahili. Ce langage étant le langage le plus parlé en Afrique de l’Est, région où nous démarrons actuellement notre projet...</p>
-                        <%= link_to "Plus d'infos", home_vision_url, :class => "card-link" %>
+                        <a class="nav-link" href="#vision">see more...</a>
                 </div>
             </div>
 
@@ -53,20 +53,108 @@
             <div class="card-header">WHAT we do</div>
                 <div class="card-body">
                     <p class="card-text">Nos actions sont diverses mais bien plus que tout, nous voulons apporter la parole de Jesus...</p>
-                    <%= link_to "Plus d'infos", home_action_url, :class => "card-link" %>
+                    <a class="nav-link" href="#action">see more...</a>
                 </div>
             </div>
                 
             <div class="card border-warning mb-3 shadow-lg" style="width: 18rem;">
                 <div class="card-header">How YOU can help</div>
                 <div class="card-body">
-                    <p class="card-text">Si vous partagez nos valeurs et que vous avez a coeur de nous aider, il y a plusieurs possibilites...</p>                    
-                    <%= link_to "Plus d'infos", home_help_url, :class => "card-link" %>
+                    <p class="card-text">Vous partagez notre vision et vous avez a coeur de nous aider ? il y a plusieurs possibilites...</p>                    
+                    <a class="nav-link" href="#aide">see more...</a>
                 </div>
             </div>
-    </div>    
-</div>
+    </div>
+    <!-- vision-->
+    <h1 class="help-h1 mgtop">Our vision!</h1><a name="vision"></a>
+        <div class="row-content">
+                <div class="jumbotron border-primary mb-3 shadow-lg">
+                        <p class="h3 text-center">Grandir par la Foi.</p>  
+                                <p class="lead text-center">Ukuaji signifie “croissance” en swahili. Ce langage étant le langage le plus parlé en Afrique de l’Est, région où nous démarrons actuellement notre projet, ce choix nous a paru naturel.
+                                Notre mission est d’aider les enfants démunis à grandir et reprendre confiance en eux. Et nous sommes fermement convaincu que l’Evangile doit être le début de toute (re)fondation solide.
+                                </p>
+                                <p class="lead blockquote font-italic text-center">
+                                "C’est pourquoi, quiconque entend ces paroles que je dis et les met en pratique, sera semblable à un homme prudent qui a bâti sa maison sur le roc."
+                                </p>
+                                <p class="blockquote-footer text-center">Matthieu 7:24</p>
+                                        <!-- inserer une image -->                        
+                </div>
+                                
+        </div>
+    </div>
+    <!-- Action -->
+    <a name="action"></a>
+    <h1 class="help-h1 mgtop">What we DO!</h1>
+<div class="row-content">
+        <div class="jumbotron border-primary mb-3 mr-3 shadow-lg">
+                <p class="h3 text-center">We supply</p>                
+                <p class="lead text-left">Nous subvenons uniquement pour le moment aux besoins quotidiens. Voici une liste exhaustive de ce que nous sommes actuellement en mesure d’apporter de facon régulière:</p>   
+                <ul>
+                  <li class="lead">du materiel scolaire (cahiers, stylo,...)</li>
+                  <li class="lead">des goûters (biscuits,jus de fruits,legumes,...)</li>
+                  <li class="lead">des PPN (farine, sucre, oeufs, ...)</li>                          
+                </ul>                
+        </div>
 
+        <div class="jumbotron border-primary mb-3 shadow-lg">
+        <p class="h3 text-center">We teach</p>                
+                <p class="lead text-left">Nous aimons passer du temps avec les enfants pour mieux les connaître et réciproquement. Nous sommes convaincus qu’il faille mieux apprendre à pêcher plutôt que de donner du poisson selon un proverbe asiatique, même si cela demande beaucoup plus de temps. Ainsi,</p>
+                <ul>
+                  <li class="lead">nous enseignons nous-même les enfants.</li>
+                  <li class="lead">nous proposons des idées nouvelles aux enseignants afin d’améliorer le suivi de chaque eleve.</li>                                           
+              </ul>                
+        </div>
+                        
+</div>
+    <!-- Nous aider-->
+    <h1 class="help-h1 mgtop">Join and help us!</h1><a name="aide"></a>
+        <div class="row-content">
+                <div class="jumbotron border-primary mb-3 mr-3 shadow-lg" style="max-width: 18rem;">
+                        <p class="h3 text-center">by giving</p>                                               
+                                <p class="lead text-center">Pour pouvoir mieux nourrir et mieux équiper nos enfants, vos dons, meme minimes, feront la difference.</p>
+                                <button type="button" class="btn btn-success">Donate</button>                        
+                </div>
+                <div class="jumbotron border-primary mb-3 shadow-lg" style="max-width: 18rem;">
+                        <p class="h3 text-center">by volunteering</p>                                               
+                                <p class="lead text-center">Nous recherchons des personnes qui ont a coeur d’enseigner les enfants mais egalement qui jouent avec eux tout en leur transmettant les enseignements de la Bible.</p>
+                                <button type="button" href="#contact" class="btn btn-success">Contact us</button>                        
+                </div>                                                      
+        </div>
+    <!-- Contact form -->
+    <h1 class="help-h1">Contact us!</h1><a name="contact"></a>
+    <form>
+    <div class="form-group my-form">
+        <div class="form-group row">
+            <div class="col">
+              <input type="text" class="form-control" placeholder="Mon prenom">
+            </div>
+            <div class="col">
+              <input type="text" class="form-control" placeholder="Mon nom">
+            </div>
+        </div>      
+        <div class="form-group row">
+          <div class="col-md-6">
+            <input type="email" class="form-control" id="email" placeholder="mon@email.com">
+          </div>
+        </div>
+        <div class="form-group input-group">            
+            <textarea class="form-control" aria-label="With textarea" placeholder="Mon message"></textarea>
+          </div>
+        <div class="form-group row">
+          <div class="col col-md-2">
+              <fieldset disabled>                                            
+            <button type="button" class="btn btn-secondary">Envoyer</button>
+          </fieldset>
+          </div>
+          <div class="col">
+              <input class="form-check-input" type="checkbox" id="disabledFieldsetCheck">
+              <label class="form-check-label" for="disabledFieldsetCheck">
+                Je ne suis pas un robot!
+              </label>
+            </div>
+        </div>            
+    </div>
+</form>
 <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
