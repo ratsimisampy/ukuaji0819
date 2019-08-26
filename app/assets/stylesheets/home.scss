@@ -48,9 +48,15 @@ p {
     width: 50%;
     margin: 100px auto;
   }
+  .opacity {
+      opacity: 0.3;
+  }
+  .my-img {
+    margin: 50px auto;
+  }
 //end contact form
   // Extra small devices (portrait phones, less than 576px)
-@media (max-width: 800px) { 
+@media (max-width: 576px) { 
     .row-1, .row-content {
         display: flex; 
         flex-direction: column;       
@@ -69,5 +75,8 @@ p {
     }
     .wtxt {
         color : white;
+    }
+    .my-img {
+        margin: 220px auto 50px auto;
     }
  }

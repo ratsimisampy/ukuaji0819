@@ -6,4 +6,5 @@ Rails.application.routes.draw do
   get "home/action", to: "home#action", as: "home/action"
   get "home/help", to: "home#help", as: "home/help"
   get "home/contact", to: "home#contact", as: "home/contact"
+  get "home/notfound", to: "home#notfound" , as: "home/notfound"
 end
