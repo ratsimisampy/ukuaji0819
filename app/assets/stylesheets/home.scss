@@ -25,17 +25,20 @@ p {
 }
 .row-1 {
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center;
     margin: 20px 0; 
 }
 .row-content {
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center;
 
     width: 70%;
     margin: 10px auto;
+}
+.supply, .teach {
+    width: 50%;
 }
 .card {
     margin: 10px 20px;
@@ -58,8 +61,7 @@ p {
   // Extra small devices (portrait phones, less than 576px)
 @media (max-width: 575.98px) { 
     .row-1, .row-content {
-        display: flex;
-        flex-direction: column;
+        display: flex;        
         justify-content: center;
         margin: 20px 0;
         width: 95%;
